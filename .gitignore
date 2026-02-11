@@ -1,0 +1,32 @@
+# WordPress core
+wp-config.php
+wp-admin/
+wp-includes/
+
+# Uploads e mídia
+wp-content/uploads/
+
+# Cache
+wp-content/cache/
+wp-content/wflogs/
+
+# Backups
+wp-content/backup*/
+wp-content/backups/
+*.zip
+*.tar.gz
+
+# Env / Secrets
+.env
+.env.*
+*.key
+*.secret
+
+# Banco de dados
+*.sql
+*.db
+*.sqlite
+
+# Sistema
+.DS_Store
+Thumbs.db
